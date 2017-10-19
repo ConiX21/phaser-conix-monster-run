@@ -1,0 +1,109 @@
+{
+  "section": [
+    {
+      "type": "spritesheet",
+      "key": "knight",
+      "url": "assets/images/knight/knight.png",
+      "frameWidth": 176,
+      "frameHeight": 198,
+      "frameMax": 40,
+      "margin": 0,
+      "spacing": 2
+    },
+    {
+      "type": "tilemap",
+      "key": "desert-map",
+      "url": "assets/textures/desert/tiles/desert-map.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "tilemap",
+      "key": "winter-map",
+      "url": "assets/textures/winter/tiles/winter-map.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "tilemap",
+      "key": "pyramid-map",
+      "url": "assets/textures/pyramid/tiles/pyramid-map.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "spritesheet",
+      "key": "cat",
+      "url": "assets/images/cat/cat.png",
+      "frameWidth": 163,
+      "frameHeight": 142,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "jack",
+      "url": "assets/images/jack/jack.png",
+      "frameWidth": 174,
+      "frameHeight": 229,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "zombie",
+      "url": "assets/images/zombie/zombie.png",
+      "frameWidth": 129,
+      "frameHeight": 156,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "zombieGirl",
+      "url": "assets/images/zombieGirl/zombieGirl.png",
+      "frameWidth": 156,
+      "frameHeight": 173,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "graveyard-map",
+      "url": "assets/textures/graveyard/tiles/graveyard-map.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "image",
+      "key": "BG_graveyard",
+      "url": "assets/images/BG_graveyard.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_winter",
+      "url": "assets/images/BG_winter.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_desert",
+      "url": "assets/images/BG_desert.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "graveyard_audio",
+      "urls": ["assets/audio/MrKey_HorrorZ_006_LMK.mp3"],
+      "autoDecode": true
+    }
+  ],
+  "meta": {
+    "generated": "1500537069983",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

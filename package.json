@@ -1,0 +1,19 @@
+{
+  "name": "conix-monster-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "phaser-ce": "^2.8.2",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite" : "lite-server",
+    "start" : "npm run lite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

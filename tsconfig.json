@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outFile": "js/monster-run.js",
+        "watch": true
+    },
+    "files" : [
+        "src/States/Boot",
+        "src/States/Preload",
+        "src/Players/PlayerBase",
+        "src/Players/Knight",
+        "src/States/Levels/LevelBase",
+        "src/States/Levels/Level1",
+        "src/Game",
+        "src/App"
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "lib/*.d.ts"
+    ]
+}
